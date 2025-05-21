@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+  <section class="page-title-banner">
+  <h1>Printer Solutions</h1>
+  </section>
+  <link rel="stylesheet" href="../../style.css">
+  <style>
+    body 
+    * {
+      box-sizing: border-box;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      background: #fff;
+    }
+
+    .content-wrapper {
+      display: flex;
+      flex: 1;
+    }
+
+    .sidebar {
+      position: sticky;
+      top: 20px;
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      width: 240px;
+      height: fit-content;
+      margin: 20px;
+      flex-shrink: 0;
+    }
+
+    .sidebar h4 {
+      margin-top: 0;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 20px;
+    }
+
+    .sidebar ul li {
+      margin-bottom: 10px;
+    }
+
+    .sidebar ul li a {
+      text-decoration: none;
+      color: #f26a2e;
+      font-weight: 500;
+    }
+
+    .sidebar img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .main-content {
+      flex: 1;
+      padding: 40px 20px;
+      max-width: 1000px;
+    }
+
+    .section {
+      margin-bottom: 80px;
+    }
+
+    .section h2 {
+      font-size: 28px;
+      color: #333;
+    }
+
+    .section p {
+      color: #444;
+      line-height: 1.6;
+    }
+
+    footer {
+      background: #000;
+      color: #ccc;
+      padding: 40px 20px 20px;
+      font-size: 14px;
+    }
+
+    .footer-grid {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 40px;
+      align-items: start;
+    }
+
+    .footer-col h4 {
+      color: #fff;
+      margin-bottom: 12px;
+      font-size: 16px;
+    }
+
+    .footer-col ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .footer-col ul li {
+      margin-bottom: 8px;
+      line-height: 1.6;
+    }
+
+    .footer-col ul li a {
+      color: #ccc;
+      text-decoration: none;
+    }
+
+    .footer-col ul li a:hover {
+      color: #fff;
+    }
+
+    .footer-col p {
+      line-height: 1.6;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      padding-top: 20px;
+      border-top: 1px solid #333;
+      color: #888;
+      font-size: 13px;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 900px) {
+      .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .content-wrapper {
+        flex-direction: column;
+      }
+
+      .sidebar {
+        position: static;
+        margin: 0 auto 20px;
+        width: 90%;
+      }
+
+      .main-content {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="content-wrapper">
+  <aside class="sidebar">
+    <h4>Printer Solutions</h4>
+    <ul>
+      <li><a href="#fix">Printer Fix</a></li>
+      <li><a href="#setup">Printer Setup</a></li>
+      <li><a href="#cartridge">Ink Cartridge Replacement</a></li>
+      <li><a href="#maintenance">Printer Maintenance</a></li>
+      <li><a href="#blogs">Useful Blogs</a></li>
+      <li><a href="#diy">DIY Printer Solutions</a></li>
+    </ul>
+    <img src="images/Frame-1.jpg" alt="Troubleshoot Like a Pro" style="width: 100%; max-width: 500px;" />
+    <img src="images/Frame-2.jpg" alt="Navigate Office Printer Problems" style="width: 100%; max-width: 500px;" />
+  </aside>
+
+  <main class="main-content">
+    <div class="section" id="fix">
+        <img src="images/printer-fix.jpg" alt="Printer Setup" style="width: 100%; max-width: 500px;" />
+      <h2>Printer Fix</h2>
+      <p>Printer Fix means when you find what’s wrong with your printer and taking the right steps to get it running smoothly again. It involves both hardware and software troubleshooting.
+Printer Fix identifies and resolves issues that prevent a printer from working properly. It can cover necessary problems, such as paper jams, Ink& toner issues, driver & software errors, connectivity problems to complex internal repairs like faulty hardware parts or software glitches</p>
+    </div>
+    <div class="section" id="setup">
+      <img src="images/setup.jpg" alt="Printer Setup" style="width: 100%; max-width: 500px;" />
+      <h2>Printer Setup</h2>
+      <p>Printer Setup guides the method of getting a printer ready to work smoothly with a computer, network, or other devices. It contains everything from unboxing the printer to setting up drivers, connecting cables or Wi-Fi, and modifying settings for smooth operation.
+There are a few steps which is required to set up the printer: unboxing and initial assembly, powering on, basic configuration, connecting the printer, installing printer drivers and software, aligning the printer, and finally running a test print.</p>
+    </div>
+    <div class="section" id="cartridge">
+      <img src="images/ink.jpg" alt="Ink Replacement" style="width: 100%; max-width: 500px;" />
+      <h2>Ink Cartridge Replacement</h2>
+      <p>Ink cartridge replacement is the method of withdrawing an open or low-ink cartridge from a printer and installing a new, full cartridge. So if the printer can continue creating a high-quality documents or images.
+Whether the printer they are inkjet or laser type, depends upon the cartridges that have ink or toner. When the ink runs out, the cartridge must be replaced to maintain proper function.
+There are a few steps which is required to set up the printer: unboxing and initial assembly, powering on, basic configuration, connecting the printer, installing printer drivers and software, aligning the printer, and finally running a test print.</p>
+    </div>
+    <div class="section" id="maintenance">
+      <img src="images/maintenance.jpg" alt="Printer Maintenance" style="width: 100%; max-width: 500px;" />
+      <h2>Printer Maintenance</h2>
+      <p>Printer maintenance refers to all the tasks and procedures needed to keep a printer operating efficiently, reliably, and producing high-quality output. Printers need regular maintenance for optimal performance. Our maintenance solutions comprise cleaning, alignment, and part replacement to extend the lifespan of your printer.
+Regular maintenance helps prevent breakdowns, extends the printer’s life, and ensures that prints (or any output) consistently meet the expected standards.</p>
+    </div>
+    <div class="section" id="blogs">
+        <img src="images/blogs.jpg" alt="Useful Blogs" style="width: 100%; max-width: 500px;" />
+      <h2>Useful Blogs</h2>
+      <p>Useful blogs are informative blogs published on a website that provide practical, valuable, and helpful information to readers. Stay updated and informed with insightful blogs wrapping all the best printer DIYS, device optimization, and informative content.
+Trendy topics are all designed to help you work smarter. They are written with the goal of educating, solving problems, offering tips, sharing news, or guiding the audience on specific topics.</p>
+    </div>
+    <div class="section" id="diy">
+        <img src="images/diyprinter.jpg" alt="DIY Solutions" style="width: 100%; max-width: 500px;" />
+      <h2>DIY Printer Solutions</h2>
+      <p>DIY Printer Solutions guides to Do-It-Yourself methods where individuals or businesses set up, maintain, fix, or customize printers on their own. Without always relying on external technicians or companies.
+Easy-to-follow instructions for tackling issues yourself. Perfect for users who prefer hands-on problem solving without needing technical assistance.</p>
+    </div>
+  </main>
+</div>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-col">
+      <p>We provide fast and trustworthy solutions for all your printer requirements. Whether you need routine maintenance, urgent fix, or printer setup. Our experts are here to ensure your devices run smoothly.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/solutions">Printer Solutions</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Important Links</h4>
+      <ul>
+        <li><a href="/faq">FAQs</a></li>
+        <li><a href="/disclaimer">Disclaimer</a></li>
+        <li><a href="/privacy">Privacy Policy</a></li>
+        <li><a href="/terms">Terms & Conditions</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact Details</h4>
+      <ul>
+        <li>📍 63 Chippenham Dr,<br>Penfield, NY 14526</li>
+        <li>📧 info@printerexpertspro.com</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2024 Printer-Experts-Pro. All Rights Reserved.
+  </div>
+</footer>
+
+</body>
+</html>
