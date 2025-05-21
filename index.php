@@ -98,3 +98,6 @@
     computerGrid.style.display = 'grid';
   };
 </script>
+<?php include 'footer.php'; ?>
+</body>
+</html>

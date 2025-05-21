@@ -243,3 +243,6 @@
     setTimeout(typeSuggestion, 500); // delay before typing starts
   });
 </script>
+<?php include 'footer.php'; ?>
+</body>
+</html>

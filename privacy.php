@@ -148,41 +148,6 @@
     🌐 Website: <a href="https://printerexpertspro.vercel.app">https://printerexpertspro.vercel.app</a></p>
   </div>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="footer-grid">
-      <div class="footer-col">
-        <p>We provide fast and trustworthy solutions for all your printer requirements. Whether you need routine maintenance, urgent fix, or printer setup. Our experts are here to ensure your devices run smoothly.</p>
-      </div>
-      <div class="footer-col">
-        <h4>Quick Links</h4>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About Us</a></li>
-          <li><a href="/solutions">Printer Solutions</a></li>
-          <li><a href="/contact">Contact Us</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Important Links</h4>
-        <ul>
-          <li><a href="/faq">FAQs</a></li>
-          <li><a href="/disclaimer">Disclaimer</a></li>
-          <li><a href="/privacy">Privacy Policy</a></li>
-          <li><a href="/terms">Terms & Conditions</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Contact Details</h4>
-        <ul>
-          <li>📍 1600 Amphitheatre Parkway<br>Mountain View, CA 94043</li>
-          <li>📧 info@printerexpertspro.com</li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      &copy; 2024 Printer-Experts-Pro. All Rights Reserved.
-    </div>
-  </footer>
+<?php include 'footer.php'; ?>
 </body>
 </html>
